@@ -55,3 +55,16 @@ git clone https://github.com/your-username/dog-vision.git
 cd dog-vision
 
 pip install -r requirements.txt
+
+- 3. Download the dataset
+    - Register on Kaggle and download the Dog Breed Identification dataset
+    - Place train/, test/, and labels.csv inside a data/ folder.
+- 4. Run the notebook
+   - Open Dog-Vision.ipynb in Google Colab or Jupyter.
+   - Update file paths if needed.
+   - Run all cells to preprocess data, train the model, and evaluate results.
+
+- 📊 Results
+   - Validation Accuracy: ~67% (on 1k subset, improves with full data).
+   - Training: Fast convergence thanks to transfer learning.
+   - Future Improvements: Data augmentation, hyperparameter tuning, trying EfficientNet or ResNet models.
