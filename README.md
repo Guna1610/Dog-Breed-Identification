@@ -53,8 +53,8 @@ The workflow includes:
 ```bash
 git clone https://github.com/your-username/dog-vision.git
 cd dog-vision
-
 pip install -r requirements.txt
+```
 
 ## 3. Download the dataset
     - Register on Kaggle and download the Dog Breed Identification dataset
