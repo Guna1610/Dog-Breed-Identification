@@ -53,8 +53,9 @@ The workflow includes:
 ```bash
 git clone https://github.com/your-username/dog-vision.git
 cd dog-vision
-pip install -r requirements.txt
-```
+```  
+## 2. Install dependencies
+    - pip install -r requirements.txt
 
 ## 3. Download the dataset
     - Register on Kaggle and download the Dog Breed Identification dataset
@@ -64,7 +65,7 @@ pip install -r requirements.txt
    - Update file paths if needed.
    - Run all cells to preprocess data, train the model, and evaluate results.
 
-- 📊 Results
+  📊 Results
    - Validation Accuracy: ~67% (on 1k subset, improves with full data).
    - Training: Fast convergence thanks to transfer learning.
    - Future Improvements: Data augmentation, hyperparameter tuning, trying EfficientNet or ResNet models.
